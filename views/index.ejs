@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ou may</title>
+</head>
+<body>
+    <form action="/api/newAd">  
+        <label for="name">Name</label><br>
+        <input id="name" type="text" name="name" maxlength="200" required><br>
+
+        <label for="price">Price</label><br>
+        <input id="price" type="number" name="price" maxlength="200" required><br>
+
+        <label for="description">Description</label><br>
+        <textarea id="description" name="description" cols="30" rows="5" maxlength="1000" required></textarea><br>
+
+        <label for="links">Links</label><br>
+        <input type="text" name="links[]" id="url1">
+        <input type="text" name="links[]" id="url2">
+        <input type="text" name="links[] " id="url3"><br><br>
+
+        <input type="submit" value="POST URL" id="submit">
+    </form>
+</body>
+</html>
