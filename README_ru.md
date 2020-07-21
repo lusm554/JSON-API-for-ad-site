@@ -19,11 +19,11 @@ $ npm install
 Что бы запустить сервер:
 
 ```
-node app.js 
+$ node app.js 
 ```
 или
 ```
-npm run start
+$ npm run start
 ```
 
 ## Методы работы с API
