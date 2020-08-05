@@ -19,11 +19,11 @@ In the config.json file, specify the MongoDB port and token.
 To start the server:
 
 ```
-node app.js 
+$ node app.js 
 ```
 or
 ```
-npm run start
+$ npm run start
 ```
 
 ## API Methods
